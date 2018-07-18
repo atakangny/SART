@@ -1,0 +1,28 @@
+Matlab Version:	R2014b
+
+Purpose: SART Test applicaton is designed to measure the effects of manipulation(nature photos in this case) on the sustain attention.
+
+Usage: 	1) Open MATLAB and set the "SARTTest" folder as current directory
+	2) Write "SART_Start" to the command window to run the application. (You must have Psychtoolbox installed in Matlab).
+	3) Press "1" and "Enter" to proceed the test, "2" and "Enter" to analyze results with plots, "3" and "Enter" to quit.
+	***Note: Necessary steps of the rest of the application is in the application.
+	***Note: Data.xls file should be cleared for real experiment. All the data in that excell file set to show the result analysis.
+	
+Working Order of Scripts:
+	SART_Start.m is the main script of the application.
+	Sart.m is the experiment script. It includes following scripts
+		Parameters.m to set parameters of the test
+		getImages.m to import images
+		getID.m to get the ID of the participant
+		ExampleSart.m to make an example of test
+		dispPictures.m for manipulation (nature photos)
+		data.m to save the data collectedduring test
+	Results.m is for calculating the overall results of experiment. It includes one more script
+		Plot.m to plot the data.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Authors:
+	-Atakan GÜNEY
+	-Sinem SEÇGÝN
+	-Gözde CENGER
